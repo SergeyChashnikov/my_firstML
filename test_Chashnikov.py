@@ -17,5 +17,3 @@ def test_text_input():
 
     assert at.markdown[1].value == 'Добрый вечер, мой маленький друг.'
     
-
-test_text_input()
