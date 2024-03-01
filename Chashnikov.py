@@ -1,7 +1,5 @@
 # Импортируем библиотеки
-import io
 import streamlit as st
-import transformers
 from transformers import pipeline
 
 st.title(' Переводчик с английского на русский ')
