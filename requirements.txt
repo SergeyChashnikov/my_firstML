@@ -2,3 +2,4 @@ transformers==4.34.1
 tensorflow
 sentencepiece
 streamlit
+sacremoses
