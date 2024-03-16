@@ -1,6 +1,9 @@
-# Импортируем библиотеки
 import streamlit as st
 from transformers import pipeline
+
+
+TF_ENABLE_ONEDNN_OPTS = 0
+
 
 st.title(" Переводчик с английского на русский ")
 
