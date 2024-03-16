@@ -10,5 +10,4 @@ if st.button("Перевести"):
                                 "Helsinki-NLP/opus-mt-en-ru")
     trans = en_ru_translator(res)
     st.write("Перевод")
-    for i in trans:
-        st.write(i["translation_text"])
+    st.write(i["translation_text"])
