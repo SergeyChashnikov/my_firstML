@@ -3,3 +3,4 @@ tensorflow
 sentencepiece
 streamlit
 sacremoses
+anyio
