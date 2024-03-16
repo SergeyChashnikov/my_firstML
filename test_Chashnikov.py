@@ -14,8 +14,8 @@ def test_text_input():
 
     #print(at.main)
     #print(at.markdown[0].value)
-    print(at.markdown[0].value)
+    print(at.markdown[1].value)
 
-    assert at.markdown[0].value == "Добрый вечер, мой маленький друг."
+    assert at.markdown[1].value == "Добрый вечер, мой маленький друг."
 
 #test_text_input()
