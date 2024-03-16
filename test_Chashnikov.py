@@ -9,12 +9,12 @@ def test_text_input():
 
     print(at.main)
     text = "Good evening my little friend"
-    at.text_input[0].set_value(text).run()
+    at.text_input[0].set_value(text)
     at.button[0].click().run(timeout=60)
 
     print(at.main)
     print(at.markdown[0].value)
-    print(at.markdown[1])
+    print(at.markdown[1].value)
 
     #assert at.markdown[1].value == "Добрый вечер, мой маленький друг."
 
