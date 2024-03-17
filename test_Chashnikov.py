@@ -15,7 +15,7 @@ def test_text_input():
     #print(at.main.children[1])
     print(at.main)
     #print(at.main.children[4].value)
-    print(at.markdown.value)
+    print(at.markdown())
     #print(at.markdown[1].value)
     print(at.main)
 
