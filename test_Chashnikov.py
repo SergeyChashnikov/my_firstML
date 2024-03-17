@@ -15,10 +15,10 @@ def test_text_input():
     #print(at.main.children[1])
     print(at.main)
     #print(at.main.children[4].value)
-    print(at.text.values)
+    print(at.text[0].value)
     #print(at.markdown[1].value)
     print(at.main)
 
     #assert at.markdown[1].value == "Добрый вечер, мой маленький друг."
 
-test_text_input()
+#test_text_input()
