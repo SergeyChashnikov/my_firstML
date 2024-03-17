@@ -13,8 +13,9 @@ def test_text_input():
     at.button[0].click().run(timeout=60)
 
     #print(at.main.children[1])
+    print(at.main)
     #print(at.main.children[4].value)
-    print(at.markdown[0].value)
+    print(at.markdown.value)
     #print(at.markdown[1].value)
     print(at.main)
 
