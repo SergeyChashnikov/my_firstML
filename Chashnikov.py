@@ -10,4 +10,4 @@ if st.button("Перевести"):
                                 model = "Helsinki-NLP/opus-mt-en-ru")
     trans = en_ru_translator(res)
     st.write("Перевод")
-    st.write(trans[0]["translation_text"])
+    st.markdown(trans[0]["translation_text"])
