@@ -10,5 +10,8 @@ jobs:
       - uses: psf/black@stable
         with:
           options: "--safe"
+      - uses: psf/black@stable
+        with:
+          options: "--diff"
      
           
