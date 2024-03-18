@@ -19,9 +19,9 @@ def test_text_input():
     print(at.text.values)
     #print(at.markdown[1].value)
     print(at.main)
-    print(at.get("text"))
-    print(at.get("trans[0]['translation_text']"))
+    print(at.get("text")[0])
+    print(at.trans[0]['translation_text'])
 
     assert at.main.children[3].value == "Добрый вечер, мой маленький друг."
 
-#test_text_input()
+test_text_input()
