@@ -15,11 +15,11 @@ def test_text_input():
     #print(at.main.children[1])
     print(at.main)
     print(at.main.children[3])
-    print(at.main.children[3].value)
-    print(at.text)
+    print(str(at.main.children[3].value))
+    print(at.text[0])
     #print(at.markdown[1].value)
     print(at.main)
 
-    assert at.main.children[3].value == "Добрый вечер, мой маленький друг."
+    assert str(at.main.children[3].value) == "Добрый вечер, мой маленький друг."
 
 #test_text_input()
