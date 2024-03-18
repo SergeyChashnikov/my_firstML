@@ -20,6 +20,6 @@ def test_text_input():
     #print(at.markdown[1].value)
     print(at.main)
 
-    #assert at.markdown[1].value == "Добрый вечер, мой маленький друг."
+    assert at.main.children[3].value == "Добрый вечер, мой маленький друг."
 
 #test_text_input()
