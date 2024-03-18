@@ -24,4 +24,4 @@ def test_text_input():
 
     assert at.main.children[3].value == "Добрый вечер, мой маленький друг."
 
-test_text_input()
+#test_text_input()
