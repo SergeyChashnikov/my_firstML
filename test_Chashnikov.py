@@ -1,5 +1,16 @@
 from streamlit.testing.v1 import AppTest
 
+def test_title():
+
+    at = AppTest.from_file("Chashnikov.py")
+
+    at.run(timeout=30)
+
+    #print(at.title[0].value)
+
+    assert at.title[0].value == "Переводчик с английского на русский"
+
+
 
 def test_text_input():
 
