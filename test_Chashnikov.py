@@ -26,4 +26,4 @@ def test_text_input():
     # print(at.main)
     # print(at.markdown[1].value)
 
-    #assert at.text[0].value == "Добрый вечер, мой маленький друг."
+    assert at.text[0].value == "Добрый вечер, мой маленький друг."
