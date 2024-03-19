@@ -2,6 +2,6 @@ My homework 4
 
 Translation application
 
-Приложение предназначено для перевода текста с английского на русский. 
-Создано на основе модели 'Helsinki-NLP/opus-mt-en-ru'. 
-Для запуска требуется установка transformers, streamlit, tensorflow, sentencepiece.
+The application is designed to translate text from English to Russian. 
+Created based on the "Helsinki-NLP/opus-mt-en-ru" model. 
+To run, you need to install transformers, streamlit, tensorflow, sentencepiece.
