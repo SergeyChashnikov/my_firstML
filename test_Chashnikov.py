@@ -6,8 +6,7 @@ def test_title():
 
     at = AppTest.from_file("Chashnikov.py")
     at.run(timeout=30)
-    # print(at.title[0].value)
-
+    
     assert at.title[0].value == "Переводчик с английского на русский"
 
 
@@ -16,11 +15,8 @@ def test_text_input():
 
     at = AppTest.from_file("Chashnikov.py")
     at.run(timeout=30)
-    # print(at.main)
     text = "Good evening my little friend"
     at.text_input[0].set_value(text).run()
     at.button[0].click().run(timeout=60)
-    # print(at.main)
-    # print(at.markdown[1].value)
-
+    
     assert at.text[0].value == "Добрый вечер, мой маленький друг."
