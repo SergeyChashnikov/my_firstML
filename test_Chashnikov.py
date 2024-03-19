@@ -6,7 +6,7 @@ def test_title():
 
     at = AppTest.from_file("Chashnikov.py")
     at.run(timeout=30)
-    
+
     assert at.title[0].value == "Переводчик с английского на русский"
 
 
