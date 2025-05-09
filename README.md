@@ -1,12 +1,3 @@
-My homework 4
-
-Translation application
-
-The application is designed to translate text from English to Russian. 
-Created based on the "Helsinki-NLP/opus-mt-en-ru" model. 
-To run, you need to install transformers, streamlit, tensorflow, sentencepiece.
-
-
 graph TD;
     A["VideoReader<br>Считывает кадры из видеофайла"] --> B["DetectionTrackingNodes<br>Реализует детектирование людей + трекинг"];
     B --> C["TrackerInfoUpdateNode<br>Обновляет информацию об актуальных треках"];
